@@ -1,0 +1,31 @@
+h3{
+    font-size: 25px !important;
+    width: 60%;
+    animation-name: h32;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-primary:hover{
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+
+canvas{
+    border: 1px dotted black;
+    border-radius: 40px;
+    animation-name: canvas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas{
+    from{box-shadow: 2px 2px 40px yellowgreen;}
+    to{box-shadow: 2px 2px 40px rgb(212, 93, 182);}
+}
+
+@keyframes h32{
+    from{box-shadow: 2px 2px 40px red;}
+    to{box-shadow: 2px 2px 40px darkolivegreen;}
+}
